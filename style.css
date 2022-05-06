@@ -6,7 +6,7 @@ body{
 .navigation
 {
     display:flex;
-    justify-content: flexbetween; 
+    justify-content: space-between; 
     align-items: center;
     
 }
@@ -91,14 +91,14 @@ p
     width: 300px;
     height: 40px;
     border-radius: 10px;
-    border: 0.5px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     margin-left: 2%;
 }
 
 .formulaire
 {
     display:flex;
-    justify-content: flexbetween; 
+    justify-content: space-between; 
     align-items: center;   
 }
 
@@ -170,7 +170,7 @@ p
 
 .borduretexteicone
 {
-    border: 0,5px;
+    border: 1px;
     border: solid #f2f2f2 ;
     height: 40px;
     border-radius: 30px;
@@ -436,7 +436,7 @@ h2
 .alignimagetext
 {
     display: flex;
-    justify-content: row;
+    justify-content: start;
     
 }
 
@@ -490,7 +490,7 @@ h2
 .alignactivités
 {
     display: flex;
-   justify-content: row;
+   justify-content: start;
    margin-left: 50px;
 
 }
@@ -611,7 +611,6 @@ h2
 .linkcard
 {
     text-decoration:none;
-    font-style: decoration none; 
     color: black;
 }
 
@@ -620,8 +619,7 @@ h2
 
 .lien20 
 {
-    text-decoration:none;
-    font-style: decoration none; 
+    text-decoration:none; 
     color: black ;
    
 }
@@ -637,7 +635,7 @@ h2
    
     background-color: #f2f2f2;
     display: flex;
-    justify-content:space-start;
+    justify-content:start;
     align-items: flex-start;
     padding-top: 30px;
     

@@ -1,0 +1,1104 @@
+body{
+    font-family: "raleway";
+    }
+
+
+.navigation
+{
+    display:flex;
+    justify-content: flexbetween; 
+    align-items: center;
+    
+}
+.lien
+{
+display:flex;
+justify-content: space-around;
+align-items:flex-end
+}
+
+.lien
+{
+    width: 85%;
+    margin-left: 60%;
+    margin-top: 1%;
+
+}
+
+.blochébergement
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style1
+{
+    color: black;
+    text-decoration: none;
+}
+
+.style2
+{
+    color:black;
+    text-decoration: none;
+}
+
+.bordure
+{
+    border-top: 2px solid transparent;
+   
+    
+}
+  .bordure:hover 
+{
+    border-top: 1px solid #0065fc;
+    cursor: pointer;
+    
+
+}
+  .bordure:hover > a 
+{
+    color: #0065fc;
+    
+}
+.margin
+{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/* RECHERCHE*/
+
+.margintext
+{
+    margin-left: 2%;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+.bordurefiltre 
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+    margin-left: 2%;
+}
+
+.formulaire
+{
+    display:flex;
+    justify-content: flexbetween; 
+    align-items: center;   
+}
+
+
+.icone1
+{
+    font-size: 12px;
+   border-radius: 10px 0 0 10px;
+   height: 15px;
+    width: 50px;
+    display:flex;
+    align-items:center;
+    padding: 1em;
+    background-color: #f2f2f2;
+}
+
+.recherche
+{
+    height: 40px;
+    width: 300px;
+    font-size: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.button
+{
+    height: 40px;
+    width: 230px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065fc;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+
+}
+
+::placeholder
+{
+    font-weight: bold;
+    color: black;
+}
+
+.desktop-none 
+{
+    display: none;
+  }
+
+
+/*filtre*/
+
+.filtres
+{
+    display: flex;
+    align-items :center;
+}
+
+.margefiltre
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.borduretexteicone
+{
+    border: 0,5px;
+    border: solid #f2f2f2 ;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+   
+}
+
+.alignimagetexte
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.borduretexteicone:hover > .filtre-texte 
+{
+    color: #0065fc;
+}
+
+.borduretexteicone:hover > .bordureicone 
+{
+    color: white;
+    background-color: #0065fc;
+}
+
+.filtre-texte 
+{
+    height: 50px;
+    width: auto;
+    margin-top: 35px;
+    margin-left:7%;
+    margin-right: 7%;
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
+    font-size: 13px;
+    
+
+}
+
+
+
+
+h3
+{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:4%;
+}
+
+
+.bordureicone  
+{
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+    color:blue;
+    background-color: #DEEBFF;
+}
+
+.imagecentre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.texticone
+{
+    border-radius: 10px;
+}
+.filtreicons
+{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: blue;
+    background-color: #DEEBFF;
+}
+
+/*ligne informations*/
+
+.informations
+{
+    display: flex;
+    align-items: center;
+}
+
+.sizepolice
+
+{
+    font-size: 12px;
+}
+
+
+
+
+
+.iconeinformation
+{
+color: blue;
+margin-right: 1%;
+margin-left: 1%;
+}
+
+
+.alignement
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.padding
+{
+    padding-left: 3%;
+
+}
+
+.margetexte
+{
+    margin-left: 2%;
+}
+
+/* HÉBERGEMENTS A MARSEILLE*/
+
+.blocgeneral
+{
+  display: flex;
+  
+ 
+}
+
+.generalborder
+{
+
+    height: 450px;
+    width: 1800px;
+    border-radius: 2%;
+    margin-left: 3%;
+    background-color: #f2f2f2 ;
+}
+
+h2
+{
+    padding-left: 2%;
+}
+
+.alignement1
+{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+
+.borderimagetext
+{
+    border:11px;
+    border-radius: 10%;
+    width: auto;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-color: white;
+    padding: 3px;
+    box-shadow: 6px 6px 6px lightgray;
+
+}
+
+.lineheight
+
+{
+    line-height: 20px;
+}
+
+.style3
+{    
+    font-weight: bold;  
+    font-size: 10px;
+    margin-top:4%;
+    margin-bottom: 1%;
+}
+
+
+.policesize
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.policesize2
+
+{
+    font-size: 11px;
+}
+
+.sizephoto
+{
+    height:90px;
+    width:190px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.starcolor1
+{
+    color:blue;
+}
+.starcolor2
+{
+    color: lightgray ;
+}
+
+.sizestars
+{
+    font-size:  12px;
+}
+
+.margintopleft
+{
+    margin-left: 2%;
+
+
+}
+
+.stylelink
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*les plus populaires*/
+
+.generalborder2
+{
+    height: 450px;
+    width: 900px;
+    border-radius: 2%;
+    background-color: #f2f2f2;
+    margin-right: 2%;
+    margin-left:2%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.style4
+{
+    margin-top:30px;
+    margin-left: 4%;
+    font-size: 10px;
+}
+
+.alignimagetext
+{
+    display: flex;
+    justify-content: row;
+    
+}
+
+.borderimagetext2
+{
+    border:11px;
+    border-radius: 15px;
+    width: 65%;
+    height:90px;
+    margin-left: 10%;
+    margin-top: 2px;
+    background-color: white;
+    padding: 3px;
+    box-shadow: 6px 6px 6px lightgray;
+
+}
+
+.float
+
+{
+   float: right;
+   margin-right:  30px;
+   margin-top: 31px;
+   
+
+ }
+
+
+.imagesize2
+{
+    height:90px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+ 
+   
+}
+
+
+
+/*activités à Marseille*/
+
+
+h2
+{
+    font-weight: bold;
+    font-size: 15px;
+    margin:3%;
+}
+
+
+.alignactivités
+{
+    display: flex;
+   justify-content: row;
+   margin-left: 50px;
+
+}
+
+.bordertexteimage3
+{
+    
+    width: auto;
+    height: auto;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 3%;
+  
+}
+ 
+.bordertexteimage4
+{
+    
+    width: 230px;
+    height: 170px;  
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 25%;
+  
+  
+  
+}
+.bordertexteimage5
+{
+    
+    width: 230px;
+    height: 120px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 25%;
+  
+  
+}
+
+.bordertexteimage6
+{
+    
+    width: auto;
+    height: auto;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 10%;
+  
+}
+.bordertexteimage7
+{
+    
+    width: 200px;
+    height: 150px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 20%;
+  
+}
+.bordertexteimage8
+{
+    
+    width: 200px;
+    height: 150px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px lightgray;
+  margin-left: 20%;
+  margin-top: 2px;
+  
+}
+.sizephoto1 
+{
+  width: 250px;
+  height: 290px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.sizephoto2
+
+{
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.sizephoto3
+{
+   
+    width: 230px;
+    height: 80px;
+    border-radius: 15px 15px 0px 0px;
+   
+}
+.sizephoto4
+{
+    
+    width: 250px;
+    height: 290px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+.sizephoto5
+{
+   
+    width: 200px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+.sizephoto6
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.linkcard
+{
+    text-decoration:none;
+    font-style: decoration none; 
+    color: black;
+}
+
+   
+/*pied de page */
+
+.lien20 
+{
+    text-decoration:none;
+    font-style: decoration none; 
+    color: black ;
+   
+}
+.police
+{
+    font-size: 14px;
+    
+}
+
+.borderfooter
+
+{
+   
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content:space-start;
+    align-items: flex-start;
+    padding-top: 30px;
+    
+    
+    
+}
+
+.liste1
+
+{
+    margin-left: 40px;
+}
+
+.liste2
+
+{
+    margin-left: 150px;
+}
+
+
+.liste3
+
+{
+    margin-left: 150px;
+}
+.bold
+{
+    font-weight: bold;
+}
+
+
+
+/* fin pied de page */
+
+
+/*Version tablette*/
+
+
+
+@media all and (min-width: 770px) and (max-width: 992px)
+
+{
+
+
+    .blocgeneral
+
+    {
+        flex-direction: column-reverse;
+        
+    }
+    .generalborder
+    {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .generalborder2
+
+    {
+        width: 90%;
+    }
+
+    .mobile-none
+    {
+        display: none;
+    }
+
+    .alignactivités
+
+    {
+        flex-wrap: wrap;
+        margin:auto
+    }
+
+    .borderimagetext2
+    {
+       
+        width: 45%;
+        margin: auto;
+        margin-bottom: 1%;
+     }
+
+    .bordertexteimage3
+
+    {
+        margin-left: 10%;
+    }
+    .alignitem2et3
+
+    {
+        margin-left: 8%;
+    }
+
+    .alignitem5et6
+
+    {
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    
+    .bordertexteimage6
+
+    {
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+
+  
+      .mobile-none
+{
+    display: none;
+}
+
+    .desktop-none
+{
+    display:contents;
+}
+
+
+}
+
+
+
+/*Version téléphone*/
+
+
+  @media screen and (max-width: 770px)
+
+  {
+
+.navigation
+
+{
+    flex-direction: column ;
+}
+
+
+.mobile-none
+{
+    display: none;
+}
+
+.desktop-none
+{
+    display:contents;
+}
+
+.style1
+
+{
+    font-size: 22px;
+   
+}
+
+.style2
+
+{
+    font-size: 22px;
+}
+
+.margin
+
+{
+    margin-top: 20px;
+    
+}
+.lien
+{
+    width: 90%;
+    margin-top: 30px;
+    margin-left:2px;
+}
+
+.bordure
+{
+    border-top: 4px solid transparent;
+   
+   
+    
+}
+
+.bordure:hover 
+{
+    border-bottom: 3px solid #0065fc;
+    width:40%;
+    cursor: pointer;
+    border-top: none;
+    
+
+}
+.bordurefiltre
+{
+    margin:auto;
+    height: 50px;
+    width:400px
+   
+}
+
+.recherche
+{
+    height: 50px;
+   
+}
+
+.button
+{
+    height: 50px;
+   
+
+}
+
+.icone1
+{
+    
+   height: 30px;
+ }
+
+h1
+{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 25px;
+    margin-left:4%;
+}
+
+h3
+
+{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+
+h4
+{
+    font-size: 25px;
+    margin-left:50%;
+}
+
+
+.p
+
+{
+    font-size: 20px;
+}
+
+.sizepolice
+
+{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.policetaille
+{
+    font-size: 17px;
+}
+
+.iconeinformation
+{
+    font-size: 25px;
+    margin-right: 1%;
+}
+
+.borduretexteicone
+{
+    height: 50PX;
+    margin-bottom: 10px;
+}
+
+.blocgeneral
+
+{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.generalborder
+
+{
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    margin-left: -3%;
+  
+}
+
+.generalborder2
+
+{
+    flex-direction: column;
+    margin-top: 0;
+    width: 90%;
+}
+
+.alignactivités 
+
+{
+    flex-direction: column;
+    height: auto;
+    margin-top: 6%;
+}
+
+.bloc3
+{
+    flex-direction: column;
+    height: auto;
+   
+}
+
+
+.borderimagetext
+{
+    width: 405px;
+    height: 230px;
+    margin-left: 2px;
+    margin-top:5%
+    
+}
+
+
+
+.policesize
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.sizephoto
+{
+    width: 410px;
+    height: 150px;
+}
+
+.sizephoto1
+{
+    width: 405px;
+    height: 150px;
+}
+
+.sizephoto2
+{
+    width: 405px;
+    height: 150px;
+}
+.sizephoto3
+{
+    width: 405px;
+    height: 150px;
+}
+.sizephoto4
+{
+    width: 405px;
+    height: 150px;
+}
+.sizephoto5
+{
+    width: 405px;
+    height: 150px;
+}
+.sizephoto6
+{
+    width: 405px;
+    height: 150px;
+}
+
+h4
+{
+    margin-top:260%;
+    margin-left:4%
+}
+
+
+
+
+.borderfooter 
+{
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin-left:10px
+  }
+
+.liste1
+{
+    margin-left: 20px;
+}
+
+.liste2
+{
+    margin-left: 20px;
+}
+
+.liste3
+{
+    margin-left: 20px;
+}
+
+.filtres
+
+{
+    flex-direction: column;
+    align-self: flex-start;
+    
+    margin-bottom: 20px;
+}
+
+
+
+.bordertexteimage3
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+   
+}
+
+
+.bordertexteimage4
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+    margin-top:5%
+}
+.bordertexteimage5
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+    margin-top:-3%
+}
+.bordertexteimage6
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+    margin-top:5%
+}
+.bordertexteimage7
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+    margin-top:5%
+}
+.bordertexteimage8
+{
+    width: 405px;
+    height: 230px;
+    margin-left: -4%;
+    margin-top:-3%
+}
+
+
+
+
+  }

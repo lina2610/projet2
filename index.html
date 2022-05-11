@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
+  
+        <script src="https://kit.fontawesome.com/bcd3ac4b23.js" crossorigin="anonymous"></script>    
+        <link rel="stylesheet" href="style.css"> 
+       
+        <title>Booki</title>
+    </head>
+    
+<body>
+    <header>
+        <nav>
+            <div class="navigation">
+                <div class="margin"><img src="images/Booki.png" alt="logo Booki" width="120" height="50"></div>
+                <div class="lien">
+                        <div class="bordure"> <a class="style1" href="#pieddepage">Hébergements</a></div>   
+                        <div class="bordure"> <a class="style2" href="#pieddepage">Activités</a></div>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+
+<main>                
+    <section>
+                <div class="margintext">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="policetaille">En plein centre ville ou en pleine nature.</p> 
+                </div>
+                <br>
+    
+    </section>
+                
+
+                <!-- FORMULAIRE DE RECHERCHES-->
+
+                <div class="bordurefiltre formulaire">
+                    <div class="icone1">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="recherche">
+                        <form method="post" action="traitement.php">
+                            <input placeholder="Marseille,France" id="place" name="place" style="border:hidden"> 
+                        </form>
+                    </div>
+                    <div class="button">
+                         <div class="back-bleu flex-centre button-search">
+                            <span class="mobile-none">Rechercher</span>
+                            <span class="desktop-none"><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                      
+                </div>      
+
+                <br> 
+
+                <!--FILTRE-->
+
+                    <div class="filtres">
+                        <div class="margefiltre"><h3>Filtres</h3> </div>
+                         
+                            
+                        <div class="borduretexteicone alignimagetexte ">       
+                            <i class= "fa-solid fa-money-bill-wave bordureicone imagecentre"></i>
+                            <div class="filtre-texte">Économique</div>
+                        </div>
+
+                        <div class="alignimagetexte borduretexteicone ">
+                            <i class="fa-solid fa-child-reaching bordureicone imagecentre"></i>
+                            <div class="filtre-texte">Familial</div>
+                        </div>
+                            
+
+                        <div class="alignimagetexte borduretexteicone">
+                             <i class="fa-solid fa-heart bordureicone imagecentre"></i>
+                            <div class="filtre-texte">Romantique</div>
+                        </div>
+
+                        <div class="alignimagetexte borduretexteicone">
+                            <i class="fa-solid fa-dog bordureicone imagecentre "></i>
+                            <div class="filtre-texte">Animaux autorisés</div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <!--INFORMATIONS-->
+                    
+                <div class="informations margetexte">
+                    
+                    <div class="iconeinformation"> <i class="fas fa-info fa-xs color-bleu"> </i></div>
+                    <div class="sizepolice"> Plus de 500 logements sont disponibles dans cette ville</div>
+                
+                </div>
+                <br>
+
+                <!--HEBERGEMENTS A MARSEILLE-->
+
+                
+ <section class="blocgeneral">
+    <div class="generalborder">
+                   
+            <div class=alignement1>        
+                <div class="style3"><h2>Hébergements à Marseille</h2></div>  
+                <div class="alignementimagehebergement"> <!--div englobant image 1 2 et 3-->
+<!--image 1-->              
+                        <a class="linkcard" href="#">
+                        <div class="borderimagetext">    
+                            <div> <img class="sizephoto" src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge de la Cannebière"></div>
+                                <div class= "policesize1 lineheight">Auberge La Cannebière</div>
+                                <div class="policesize2 lineheight">Nuit à partir de 25€</div>
+                                <div class="sizestars">
+                                    <i class=" starcolor1 fa-solid fa-star"></i>
+                                    <i class=" starcolor1 fa-solid fa-star"></i>
+                                    <i class=" starcolor1 fa-solid fa-star"></i>
+                                    <i class=" starcolor1 fa-solid fa-star"></i>
+                                    <i class=" starcolor2 fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                         </a>
+
+<!--image 2-->                          
+                        <a class="linkcard" href="#"> 
+                        <div class="borderimagetext"> 
+                            <div><img class="sizephoto" src="images/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo Hôtel du port"></div>
+                            <div class= "policesize1 lineheight">Hôtel du port</div>
+                            <div class="policesize2 lineheight">Nuit à partir de 52€</div>
+                                <div class="sizestars">
+                                        <i class="starcolor1 fa-solid fa-star"></i>
+                                        <i class="starcolor1 fa-solid fa-star"></i>
+                                        <i class="starcolor1 fa-solid fa-star"></i>
+                                        <i class="starcolor1 fa-solid fa-star"></i>
+                                        <i class="starcolor1 fa-solid fa-star"></i>
+                                </div>
+                        </div> 
+                        </a>
+                            
+
+ <!--image 3-->                     
+                            <a class="linkcard" href="#"> 
+                            <div class="borderimagetext"> 
+                                <div><img class="sizephoto" src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo Hôtel les mouettes"></div>
+                                <div class= "policesize1 lineheight">Hôtel les mouettes</div>
+                                <div class="policesize2 lineheight">Nuit à partir de 76€</div>
+                                <div class="sizestars">
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor2 fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                                
+                            </a>
+                 </div> <!--fin div englobante image 1 2 et 3-->
+<br>
+  <!--image 4-->         
+
+                     <div class="alignementimagehebergement"> <!--div englobante image 4 5 et 6-->
+
+                            <a class=linkcard href="#"> 
+                            <div class="borderimagetext">
+                                <div> <img class="sizephotoA" src="images/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo Hôtel de la mer"></div>
+                                <div class= "policesize1 lineheight">Hôtel de la mer</div>
+                                <div class="policesize2 lineheight">Nuit à partir de 46€</div>
+                                <div class="sizestars">
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor2 fa-solid fa-star"></i>
+                                    <i class="starcolor2 fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            </a>
+                            
+
+
+<!--image 5-->  
+
+                            <a class=linkcard href="#"> 
+                            <div class="borderimagetext">        
+                                <div><img class="sizephoto" src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo Auuberge Le panier"></div>
+                                <div class= "policesize1 lineheight">Auberge Le Panier</div>
+                                <div class="policesize2 lineheight">Nuit à partir de 23€</div>
+                                <div class="sizestars">
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor2 fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            </a> 
+
+<!--image 6-->  
+                            <a class=linkcard href="#"> 
+                            <div class="borderimagetext">
+                                <div><img class="sizephoto" src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo hôtel chez Amina"></div>
+                                <div class="policesize1 lineheight">Hôtel chez Amina</div>
+                                <div class="policesize2 lineheight">Nuit à partir de 96€</div>
+                                <div class="sizestars">
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                    <i class="starcolor1 fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            </a>
+            </div> <br>
+
+                        <div> <a class="margintopleft stylelink" href="#">Afficher plus</a></div>
+                        <br>
+            
+                    </div> <!--fin div englobante image 4 5 et 6-->
+
+
+        </div>
+            
+<!--LES PLUS POPULAIRES-->
+    
+
+<aside class="generalborder2"> 
+    <article>                      
+        <div class="sizestars"></div>
+        <i class=" float fa-solid fa-star"></i>
+        <div class="style4"> <h2> Les plus populaires</h2></div>
+    </article>
+
+
+    <a class=linkcard href="#"> 
+        <div class= borderimagetext2>
+
+            <div class="alignimagetext">
+                
+                     <div> <img class="imagesize2" src="images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Le soleil du matin"></div>
+                
+                   
+                <div> <!--div englobante pour l'aligement texte photo-->
+
+                    <div class="policesize3"> Hôtel Le soleil du matin</div>
+                    <p class="policesize4">Nuit à partir de 128€</p> 
+                    <div class="sizestars2"> 
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>  
+                    </div>
+
+                </div>
+                    
+            
+             </div>
+
+
+        </div>       
+    </a> 
+
+
+
+    <a class="linkcard" href="#">  
+    <div class= borderimagetext2>
+        <div class="alignimagetext">    
+        <div> <img class="imagesize2" src="images/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo Le soleil du matin"></div>
+
+                 <div> <!--div englobante pour l'aligement texte photo-->
+
+                     <div class="policesize3"> Au coeur de l'eau Chambres d'hôtes</div>
+                    <p class="policesize4">Nuit à partir de 71€</p> 
+                    <div class="sizestars2"> 
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                        <i class="starcolor1 fa-solid fa-star"></i>
+                         <i class="starcolor2 fa-solid fa-star"></i>  
+                    </div>  
+
+                </div>               
+        </div>              
+                        
+    </div>   
+    </a> 
+
+    <a class=linkcard href="#"> 
+        <div class= borderimagetext2> 
+            <div class="alignimagetext"> 
+                <div> <img class="imagesize2" src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel Tout bleu et blanc"></div>
+           
+                    <div> <!--div englobante pour l'aligement texte photo-->  
+
+                        <div class= "policesize3"> Hôtel Tout bleu et Blanc </div>
+                         <p class="policesize4"> Nuit à partir de 69€</p> 
+                        
+                        <div class="sizestars2"> 
+                            <i class="starcolor1 fa-solid fa-star"></i>
+                            <i class="starcolor1 fa-solid fa-star"></i>
+                            <i class="starcolor1 fa-solid fa-star"></i>
+                            <i class="starcolor1 fa-solid fa-star"></i>
+                            <i class="starcolor2 fa-solid fa-star "></i> 
+                        </div>  
+                    </div>
+
+             </div>
+        </div>
+                
+    </a>
+    </aside>
+</section>
+                
+         <br>
+         
+        
+
+         <!--activités à Marseille-->
+
+
+ <section class="bloc3">
+
+    <h4>Activités à Marseille</h4>
+        <div class="alignactivités">
+            
+            <a class=linkcard href="#"> 
+                <div class="bordertexteimage3"> 
+                    <div> <img class="sizephoto1" src="images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo Vieux port"></div>
+                    <div class="policesize1 bold">Vieux Port</div>
+                </div>
+            </a>
+            
+    <div class="alignitem2et3"> <!--div qui englobe les images 2 et 3 pour etre en colone-->
+        
+        
+         <a class=linkcard href="#">  
+             <div class="bordertexteimage4">
+                <div> <img class="sizephoto2" src="images/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo Fort de Pomègues"></div>
+                <div class="policesize1 bold"> Fort de Pomègues</div>
+            </div> 
+        </a>
+
+
+        <a class="linkcard" href="#">  
+            <div class="bordertexteimage5">
+                <div> <img class="sizephoto3" src="images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo Îles de Frioul"></div>
+                <div class="policesize1 bold"> Îles du Frioul</div>
+            </div>
+        </a>
+
+        
+    </div>   <!-- fin de la div englobante images 2 et 3-->
+      
+
+
+        <!--image 4-->
+
+        <a class=linkcard href="#">   
+            <div class="bordertexteimage6"> 
+                <div> <img class="sizephoto4" src="images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo Parc national des Calanques"></div>
+                 <div class="policesize1 bold">Parc National des Calanques</div>
+            </div>
+        </a>
+
+
+
+        <div class="alignitem5et6">   <!--div qui englobe image 5 et 6 pour mettre en colonne-->
+
+            
+            <a class=linkcard href="#"> 
+                <div class="bordertexteimage7">
+                    <div><img class="sizephoto5" src="images/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo notre dame de la Garde"></div>
+                    <div class="policesize1 bold">Notre Dame de la Garde</div>
+                </div>
+            </a>
+            
+            
+
+            <a class=linkcard href="#"> 
+                <div class="bordertexteimage8">
+                    <div> <img class="sizephoto6" src="images/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo Parc Longchamp"></div>
+                    <div class="policesize1 bold">Parc Longchamp</div>
+                </div>
+             </a>
+            
+        </div>
+    
+</div>
+
+</section>
+   
+
+        
+    
+ </main>
+
+        <!--pied de page-->
+
+
+ <footer id="pieddepage">
+
+            <section>
+
+            <div class="borderfooter police">
+
+                        
+                <div class="liste1">
+                        <h5> A propos </h5>
+                        <p><a class="lien20" href="#">Fonctionnement du site</a> </p>
+                        <p><a class="lien20" href="#">Conditions généralales de vente </a></p>
+                        <p><a class="lien20" href="#">Données et confidentialité</a></p>
+                        
+                 </div>
+                
+
+                <div class="liste2">     
+                    <h5> Nos hébergements </h5>  
+                        <p><a class="lien20" href="#">Charte qualité</a> </p>
+                        <p><a class="lien20" href="#">Soumettre votre hôtel</a> </p>
+                    
+                </div>   
+            
+                
+                <div class="liste3">
+                    <h5>Assistance </h5>
+                        <p><a class="lien20" href="#">Centre d'aide </a> <p>
+                        <p><a class="lien20" href="#">Nous contacter </a> </p>
+                
+                 </div> 
+               
+            </div>
+
+
+            </section>
+
+
+           
+
+</footer>
+
+    </body>
+
+</html>

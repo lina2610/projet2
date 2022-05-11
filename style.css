@@ -100,6 +100,12 @@ p
     margin-left: 2%;
 }
 
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+  }
+
 .formulaire
 {
     display:flex;
@@ -218,6 +224,8 @@ p
     font-size: 13px;
     
 }
+
+
 
 h3
 {
@@ -363,7 +371,7 @@ h2
     border-radius: 10%;
     margin-left: 2%;
     width: 100%;
-    height: 15%;
+    
     background-color: white;    
     box-shadow: 6px 6px 6px lightgray;
    
@@ -375,6 +383,13 @@ h2
 {
     line-height: 20px;
 }
+
+.marginbottom
+
+{
+    padding-bottom: 20px;
+}
+
 
 .style3
 {    
@@ -427,7 +442,7 @@ h2
 
 .sizephoto
 {
-    width: 220px;
+    width: 215px;
     height: 105px ;
 
     padding:3px;
@@ -438,7 +453,7 @@ h2
 
 .sizephotoA
 {
-    width: 220px;
+    width: 215px;
     height: 105px;
     padding:3px;
     border-radius: 15px 15px 0 0;
@@ -447,7 +462,7 @@ h2
 
 .sizephotoC
 {
-    width: 220px;
+    width: 215px;
     height: 105px;
     padding:3px;
     border-radius: 15px 15px 0 0;
@@ -457,7 +472,7 @@ h2
 .sizephotoE
 
 {
-    width: 220px;
+    width: 215px;
     height: 105px;
     padding:3px;
     border-radius: 15px 15px 0 0;
@@ -798,6 +813,7 @@ h5
 
 {
     flex-direction: column ;
+    width:100%;
 }
 
 
@@ -817,7 +833,7 @@ h5
 
 {
     font-size: 22px;
-    margin-left:20%;
+    margin-left:28%;
     width: 100%;
     
    
@@ -829,7 +845,7 @@ h5
 
 {
     font-size: 22px;
-    margin-left:-20%;
+    margin-left:22%;
     
 }
 
@@ -849,24 +865,21 @@ h5
     border-bottom: 2px solid lightgray ;
     border-width: 120%;
     
-    
-    
 }
 
 .bordure
 {
     border-top: 4px solid transparent;
-
+    width:100%;
+   
 }
 
 .bordure:hover 
 {
     border-bottom: 3px solid #0065fc;
     
-    margin-left: 0%;
     cursor: pointer;
     border-top: none;
-    
 
 }
 
@@ -877,9 +890,9 @@ h5
 
 .bordurefiltre
 {
-    margin-left:4%;
+    margin-left:6%;
     height: 50px;
-    width:80%;
+    width:90%;
    
 }
 
@@ -901,7 +914,8 @@ h5
 .bordureicone  
 
 {
-    height:55px
+    height:40px;
+   
 }
 
 .icone1
@@ -912,12 +926,6 @@ h5
     width: 50px;
  }
 
-
- .filtres
-{
-    display: flex;
-    align-items:flex-start;
-}
 
 h1
 {
@@ -939,6 +947,7 @@ h3
 {
     font-size: 18px;
     font-weight: bold;
+    padding-left: -30%;
    
 }
 
@@ -949,7 +958,10 @@ h4
     margin-left:50%;
 }
 
-
+.margefiltre
+{
+    margin-left: -65%;
+}
 
 .sizepolice
 
@@ -974,8 +986,9 @@ h4
 
 .borduretexteicone
 {
-    height: 50PX;
+    height: 40px;
     margin-bottom: 10px;
+    width:130px;
 }
 
 .blocgeneral
@@ -1058,27 +1071,26 @@ h4
 {
     width: 360px;
     height: 150px;
-    padding: 1%;
+    
 }
 
 .sizephotoA
 {
     width: 360px;
     height: 150px;
-    padding: 1%;
+    
 }
 .sizephotoE
 {
     width: 360px;
     height: 150px;
-    padding: 1%;
+   
 }
 
 .sizephotoC
 {
     width: 360px;
     height: 150px;
-    padding: 1%;
 }
  
 
@@ -1198,12 +1210,18 @@ h4
     margin-left: 20px;
 }
 
-.filtres
-
+.mobile-filtre-wrap 
 {
     flex-direction: column;
-    align-self: flex-start;   
-    margin-bottom: 20px;
+    align-items: flex-start;
+    margin-left: -43%;
+  
+  }
+
+.filtres
+{
+    display: flex;
+    flex-direction: column;
 }
 
 
